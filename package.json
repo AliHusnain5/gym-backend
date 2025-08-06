@@ -131,12 +131,13 @@
     "whatwg-url": "^14.2.0",
     "wrappy": "^1.0.2"
   },
-  "scripts": {
-    "start": "nodemon server.js",
-     "client": "cd ../client && npm start",
-  "server": "nodemon server.js",
-  "dev": "concurrently \"npm run server\" \"npm run client\""
-  },
+"scripts": {
+  "start": "node server.js",                          
+  "server": "nodemon server.js",                      
+  "client": "cd ../client && npm start",              
+  "dev": "concurrently \"npm run server\" \"npm run client\"" 
+},
+
   "keywords": [],
   "author": "",
   "license": "ISC",
